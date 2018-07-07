@@ -1,0 +1,24 @@
+{
+  "name": "nock_example",
+  "version": "1.0.0",
+  "description": "Nock HTTP mocking example",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dominic Fraser",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-skyscanner": "^3.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.3.0",
+    "nock": "^9.4.1",
+    "prettier": "^1.13.7"
+  }
+}
