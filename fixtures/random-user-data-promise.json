@@ -1,0 +1,97 @@
+[
+    {
+        "scope": "https://randomuser.me:443",
+        "method": "GET",
+        "path": "/api/",
+        "body": "",
+        "status": 200,
+        "response": {
+            "results": [
+                {
+                    "gender": "male",
+                    "name": {
+                        "title": "mr",
+                        "first": "elvis",
+                        "last": "winkelhorst"
+                    },
+                    "location": {
+                        "street": "3288 hanengeschrei",
+                        "city": "barneveld",
+                        "state": "utrecht",
+                        "postcode": 59601,
+                        "coordinates": {
+                            "latitude": "42.4027",
+                            "longitude": "-124.0262"
+                        },
+                        "timezone": {
+                            "offset": "-2:00",
+                            "description": "Mid-Atlantic"
+                        }
+                    },
+                    "email": "elvis.winkelhorst@example.com",
+                    "login": {
+                        "uuid": "3f6541c8-a4c7-4f22-a335-493bb66652de",
+                        "username": "bluegoose340",
+                        "password": "christin",
+                        "salt": "MsXC9ikj",
+                        "md5": "6d4c13ac2d30b12cc1ad0ed8b64d0515",
+                        "sha1": "3113f3874d743bc50ddb0706a49b2ead6c8c210b",
+                        "sha256": "7fb078cf9ec85a6f280482fa1b26fa989f3f2d6ec594f4e899a70e6b5e8eb561"
+                    },
+                    "dob": {
+                        "date": "1976-05-22T11:29:08Z",
+                        "age": 42
+                    },
+                    "registered": {
+                        "date": "2005-09-21T19:21:15Z",
+                        "age": 12
+                    },
+                    "phone": "(733)-431-8999",
+                    "cell": "(057)-383-4846",
+                    "id": {
+                        "name": "BSN",
+                        "value": "56620806"
+                    },
+                    "picture": {
+                        "large": "https://randomuser.me/api/portraits/men/71.jpg",
+                        "medium": "https://randomuser.me/api/portraits/med/men/71.jpg",
+                        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/71.jpg"
+                    },
+                    "nat": "NL"
+                }
+            ],
+            "info": {
+                "seed": "63a6a9379d237d7d",
+                "results": 1,
+                "page": 1,
+                "version": "1.2"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Sun, 08 Jul 2018 10:10:12 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=d084fdd5424eb48556a1f43eb1f68216b1531044612; expires=Mon, 08-Jul-19 10:10:12 GMT; path=/; domain=.randomuser.me; HttpOnly",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "no-cache",
+            "ETag",
+            "W/\"452-pS0ngihKRl/4PYOvxKruyg\"",
+            "Vary",
+            "Accept-Encoding",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

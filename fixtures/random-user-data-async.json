@@ -1,0 +1,97 @@
+[
+    {
+        "scope": "https://randomuser.me:443",
+        "method": "GET",
+        "path": "/api/",
+        "body": "",
+        "status": 200,
+        "response": {
+            "results": [
+                {
+                    "gender": "female",
+                    "name": {
+                        "title": "mrs",
+                        "first": "nanda",
+                        "last": "bogaards"
+                    },
+                    "location": {
+                        "street": "7182 annastraat",
+                        "city": "heemstede",
+                        "state": "limburg",
+                        "postcode": 21656,
+                        "coordinates": {
+                            "latitude": "39.3347",
+                            "longitude": "127.5639"
+                        },
+                        "timezone": {
+                            "offset": "-2:00",
+                            "description": "Mid-Atlantic"
+                        }
+                    },
+                    "email": "nanda.bogaards@example.com",
+                    "login": {
+                        "uuid": "a176b157-2987-4918-b383-1bd45d630a59",
+                        "username": "brownbird758",
+                        "password": "lemons",
+                        "salt": "KGCJeGnp",
+                        "md5": "aa4e41b906472721543dc37b706a7fc3",
+                        "sha1": "f0c0adf8a636ce289b380cf3403157ee63bf09e8",
+                        "sha256": "236986cfd98088c7e0a7f6086f79db42c9dfd12a14f261394a7e0903e4e5f60f"
+                    },
+                    "dob": {
+                        "date": "1990-02-21T22:07:46Z",
+                        "age": 28
+                    },
+                    "registered": {
+                        "date": "2006-05-09T10:10:59Z",
+                        "age": 12
+                    },
+                    "phone": "(831)-063-5835",
+                    "cell": "(219)-420-4330",
+                    "id": {
+                        "name": "BSN",
+                        "value": "98489064"
+                    },
+                    "picture": {
+                        "large": "https://randomuser.me/api/portraits/women/31.jpg",
+                        "medium": "https://randomuser.me/api/portraits/med/women/31.jpg",
+                        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/31.jpg"
+                    },
+                    "nat": "NL"
+                }
+            ],
+            "info": {
+                "seed": "fa0fa5935e849e88",
+                "results": 1,
+                "page": 1,
+                "version": "1.2"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Sun, 08 Jul 2018 10:10:13 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "close",
+            "Set-Cookie",
+            "__cfduid=d808998f42088ee35f6b63b6fffa6758f1531044613; expires=Mon, 08-Jul-19 10:10:13 GMT; path=/; domain=.randomuser.me; HttpOnly",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "no-cache",
+            "ETag",
+            "W/\"44f-TUAlWr2MDYw9raMMFLjE2A\"",
+            "Vary",
+            "Accept-Encoding",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]
