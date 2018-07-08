@@ -20,5 +20,8 @@
     "jest": "^23.3.0",
     "nock": "^9.4.1",
     "prettier": "^1.13.7"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
   }
 }
