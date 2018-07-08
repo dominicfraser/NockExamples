@@ -1,7 +1,7 @@
 const nock = require('nock');
 const query = require('./userQueryHelper');
 const defaultUser = require('./defaultUser');
-const defaultOptions = require('./helpers/nock');
+const defaultOptions = require('../helpers/nock');
 
 describe('userQueryHelper', () => {
   afterAll(nock.restore);

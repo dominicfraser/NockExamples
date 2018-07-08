@@ -1,4 +1,4 @@
-[Nock](https://github.com/nock/nock#modes)
+[Nock](https://github.com/nock/nock)
 
 [Random User API](https://randomuser.me/documentation)
 
