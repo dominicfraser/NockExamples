@@ -90,7 +90,7 @@ describe('userQueryHelper', () => {
 
   it('should return a user of set nationality', () => {
     nock(/random/)
-      .get(/nat/)
+      .get(/nat=gb/)
       .reply(200, {
         results: [{ nat: 'GB' }],
       });
