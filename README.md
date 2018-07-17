@@ -1,6 +1,6 @@
-[Nock](https://github.com/nock/nock)
+This is an example repo to go along with this ['how to' article](https://codeburst.io/testing-mocking-http-requests-with-nock-480e3f164851).
 
-[Random User API](https://randomuser.me/documentation)
+It uses [Nock](https://github.com/nock/nock) alongside a [Random User API](https://randomuser.me/documentation).
 
 #### Linting:
 

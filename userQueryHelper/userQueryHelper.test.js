@@ -52,22 +52,7 @@ describe('userQueryHelper', () => {
 
     expect(userInfo).toEqual(
       expect.objectContaining({
-        results: [
-          {
-            cell: expect.any(String),
-            dob: expect.any(Object),
-            email: expect.any(String),
-            gender: expect.any(String),
-            id: expect.any(Object),
-            location: expect.any(Object),
-            login: expect.any(Object),
-            name: expect.any(Object),
-            nat: expect.any(String),
-            phone: expect.any(String),
-            picture: expect.any(Object),
-            registered: expect.any(Object),
-          },
-        ],
+        results: expect.any(Object),
       }),
     );
 
